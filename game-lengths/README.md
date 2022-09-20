@@ -1,4 +1,4 @@
-# Distrubtion of game length by chess variant
+# Distribution of game length by chess variant
 ## Summary
 Here, I present the distribution of the length of chess games by chess variant.
 
