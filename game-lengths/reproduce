@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+bash collect-data.sh
+mkdir -p plots
+R -f process-data.R
