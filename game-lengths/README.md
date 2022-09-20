@@ -10,7 +10,8 @@ I used the length of games played on [Lichess](https://lichess.org/) in August 2
 | Variant | Median game length | Modal game length |
 | ------- | ------------------ | ----------------- |
 | Standard | 32 | 31
-| Atomic | 11 | 19
+| Antichess | 23 | 19
+| Atomic | 11 | 4
 | Chess960 | 32 | 30
 | Crazyhouse | 26 | 25
 | Horde | 48 | 49
