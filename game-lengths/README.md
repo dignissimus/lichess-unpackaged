@@ -22,8 +22,7 @@ I used the length of games played on [Lichess](https://lichess.org/) in August 2
 | Racing Kings | 14 |
 | Three Check | 15 |
 
-# Plots
-## Kernel density estimation
+# Kernel density estimates
 ## All variants
 ![all variants](plots/all.svg)
 ## Standard
