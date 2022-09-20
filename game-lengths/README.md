@@ -24,6 +24,8 @@ I used the length of games played on [Lichess](https://lichess.org/) in August 2
 ![all variants](plots/all.svg)
 ## Standard
 ![standard](plots/standard.svg)
+## Antichess
+![antichess](plots/antichess.svg)
 ## Atomic
 ![atomic](plots/atomic.svg)
 ## Chess960
