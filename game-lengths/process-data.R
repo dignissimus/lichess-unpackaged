@@ -12,7 +12,8 @@ for (file in files) {
     ggplot(df) + aes(x=moves) + geom_density() + xlim(0, 100)
     ggsave(paste("../plots/",variant,".svg", sep=""), width=30, height=20, units="cm")
     data <- rbind(data, df)
-    print(paste(variant, median(moves)))
+    print(paste(variant, "median", median(moves)))
+    print(paste(variant, "mode", names(sort(-table(moves)))[1]))
 }
 
 ggplot(data) + aes(x=moves, color=variant) + geom_density() + xlim(0, 100)
