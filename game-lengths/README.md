@@ -7,16 +7,16 @@ Standard chess games and Chess960 games typically terminate before the end of th
 I used the length of games played on [Lichess](https://lichess.org/) in August 2022. I sampled games from all available variants up to a limit of 100,000 games for each variant using the data provided by the [Lichess Open Database](database.lichess.org).
 ### Table
 
-| Variant | Median game length |
-| ------- | ------------------ |
-| Standard | 32 |
-| Atomic | 11 |
-| Chess960 | 32 |
-| Crazyhouse | 26 |
-| Horde | 48 |
-| King of The Hill | 23 |
-| Racing Kings | 14 |
-| Three Check | 15 |
+| Variant | Median game length | Modal game length |
+| ------- | ------------------ | ----------------- |
+| Standard | 32 | 31
+| Atomic | 11 | 19
+| Chess960 | 32 | 30
+| Crazyhouse | 26 | 25
+| Horde | 48 | 49
+| King of The Hill | 23 | 25
+| Racing Kings | 14 | 15
+| Three Check | 15 | 10
 
 # Kernel density estimates
 ## All variants
