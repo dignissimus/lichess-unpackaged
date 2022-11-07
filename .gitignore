@@ -1,3 +1,5 @@
 *.target
 .RData
 .Rhistory
+game-lengths/data
+game-lengths/plots/Rplots.pdf.svg
